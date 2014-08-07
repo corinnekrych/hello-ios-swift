@@ -29,4 +29,11 @@ If you have a Swift based project and you would like to use the FH iOS SDK, here
   #import <FH/FHResponse.h>
   ```
 
+4. Link Libraries
+
+  You also need to link these two libraries in your project (via General -> Linked Frameworks and Libraries -> Add):
+
+  * libz.dylib
+  * libxml2.dylib
+
 Then you can start using FH SDK in your Swift classes. See this [example](HelloSwift/HelloSwift/ViewController.swift).
