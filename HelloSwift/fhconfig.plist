@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<dict>
+    <key>host</key>
+    <string>https://testing.beta.feedhenry.com</string>
+    <key>appid</key>
+    <string>JS1ceif2pSgZQLVXxRcTFe6E</string>
+    <key>projectid</key>
+    <string>JS1cefXrnouFO9uJfwlJoe6b</string>
+    <key>appkey</key>
+    <string>997149e57e1a1fa48cd4ebfec5a4f46a09da94dd</string>
+    <key>connectiontag</key>
+    <string>0.0.4</string>
+</dict>
+</plist>
