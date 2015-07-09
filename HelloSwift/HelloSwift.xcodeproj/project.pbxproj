@@ -12,10 +12,8 @@
 		B3CC5990199384B90080C4D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3CC598E199384B90080C4D3 /* Main.storyboard */; };
 		B3CC5992199384B90080C4D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3CC5991199384B90080C4D3 /* Images.xcassets */; };
 		B3CC599E199384B90080C4D3 /* HelloSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CC599D199384B90080C4D3 /* HelloSwiftTests.swift */; };
-		B3CC59C41993A4DD0080C4D3 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B3CC59C31993A4DD0080C4D3 /* libxml2.dylib */; };
-		B3CC59C61993A4E30080C4D3 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B3CC59C51993A4E30080C4D3 /* libz.dylib */; };
 		B3CC59C81993AF450080C4D3 /* fhconfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3CC59C71993AF450080C4D3 /* fhconfig.plist */; };
-		B3DB9C231993C61700E1C68D /* FH.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3DB9C221993C61700E1C68D /* FH.framework */; };
+		C681C3027AADE73E2BFF2482 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34186D40712A121AEF9AEAAC /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		34186D40712A121AEF9AEAAC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3CC5985199384B90080C4D3 /* HelloSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3CC5989199384B90080C4D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3CC598A199384B90080C4D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +42,8 @@
 		B3CC59C51993A4E30080C4D3 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		B3CC59C71993AF450080C4D3 /* fhconfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = fhconfig.plist; sourceTree = "<group>"; };
 		B3DB9C221993C61700E1C68D /* FH.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FH.framework; sourceTree = "<group>"; };
+		BEA4930BC185928FD3BEDAB7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E121541DAAACF056CE3141A8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,9 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3DB9C231993C61700E1C68D /* FH.framework in Frameworks */,
-				B3CC59C61993A4E30080C4D3 /* libz.dylib in Frameworks */,
-				B3CC59C41993A4DD0080C4D3 /* libxml2.dylib in Frameworks */,
+				C681C3027AADE73E2BFF2482 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +76,8 @@
 				B3CC599A199384B90080C4D3 /* HelloSwiftTests */,
 				B3CC5986199384B90080C4D3 /* Products */,
 				B3CC59C01993A28A0080C4D3 /* HelloSwift-Bridging-Header.h */,
+				E93B97E0446390E39FE277D3 /* Pods */,
+				C831F9D2B59378D830029DA8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +127,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C831F9D2B59378D830029DA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34186D40712A121AEF9AEAAC /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E93B97E0446390E39FE277D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E121541DAAACF056CE3141A8 /* Pods.debug.xcconfig */,
+				BEA4930BC185928FD3BEDAB7 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -133,9 +151,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3CC59A1199384B90080C4D3 /* Build configuration list for PBXNativeTarget "HelloSwift" */;
 			buildPhases = (
+				80DFFB1E07A222D873E12C5D /* Check Pods Manifest.lock */,
 				B3CC5981199384B90080C4D3 /* Sources */,
 				B3CC5982199384B90080C4D3 /* Frameworks */,
 				B3CC5983199384B90080C4D3 /* Resources */,
+				088C694CC86ED18F5F5CBA1B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -220,6 +240,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		088C694CC86ED18F5F5CBA1B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80DFFB1E07A222D873E12C5D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B3CC5981199384B90080C4D3 /* Sources */ = {
@@ -342,6 +395,7 @@
 		};
 		B3CC59A2199384B90080C4D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E121541DAAACF056CE3141A8 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = (
 					"$(ARCHS_STANDARD)",
@@ -358,7 +412,7 @@
 				INFOPLIST_FILE = HelloSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "${inherited}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "HelloSwift-Bridging-Header.h";
@@ -369,6 +423,7 @@
 		};
 		B3CC59A3199384B90080C4D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEA4930BC185928FD3BEDAB7 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ARCHS = (
 					"$(ARCHS_STANDARD)",
@@ -384,7 +439,7 @@
 				INFOPLIST_FILE = HelloSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "${inherited}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "HelloSwift-Bridging-Header.h";
