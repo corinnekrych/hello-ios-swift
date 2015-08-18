@@ -37,11 +37,9 @@
 		B3CC5997199384B90080C4D3 /* HelloSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3CC599C199384B90080C4D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3CC599D199384B90080C4D3 /* HelloSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloSwiftTests.swift; sourceTree = "<group>"; };
-		B3CC59C01993A28A0080C4D3 /* HelloSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloSwift-Bridging-Header.h"; sourceTree = "<group>"; };
 		B3CC59C31993A4DD0080C4D3 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		B3CC59C51993A4E30080C4D3 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		B3CC59C71993AF450080C4D3 /* fhconfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = fhconfig.plist; sourceTree = "<group>"; };
-		B3DB9C221993C61700E1C68D /* FH.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FH.framework; sourceTree = "<group>"; };
 		BEA4930BC185928FD3BEDAB7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		E121541DAAACF056CE3141A8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,14 +66,12 @@
 		B3CC597C199384B90080C4D3 = {
 			isa = PBXGroup;
 			children = (
-				B3DB9C221993C61700E1C68D /* FH.framework */,
 				B3CC59C71993AF450080C4D3 /* fhconfig.plist */,
 				B3CC59C51993A4E30080C4D3 /* libz.dylib */,
 				B3CC59C31993A4DD0080C4D3 /* libxml2.dylib */,
 				B3CC5987199384B90080C4D3 /* HelloSwift */,
 				B3CC599A199384B90080C4D3 /* HelloSwiftTests */,
 				B3CC5986199384B90080C4D3 /* Products */,
-				B3CC59C01993A28A0080C4D3 /* HelloSwift-Bridging-Header.h */,
 				E93B97E0446390E39FE277D3 /* Pods */,
 				C831F9D2B59378D830029DA8 /* Frameworks */,
 			);
