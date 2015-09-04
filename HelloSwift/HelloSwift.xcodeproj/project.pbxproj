@@ -30,7 +30,7 @@
 
 /* Begin PBXFileReference section */
 		B3CC5985199384B90080C4D3 /* HelloSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3CC5989199384B90080C4D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3CC5989199384B90080C4D3 /* HelloSwift-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloSwift-Info.plist"; sourceTree = "<group>"; };
 		B3CC598A199384B90080C4D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3CC598C199384B90080C4D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B3CC598F199384B90080C4D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -104,7 +104,7 @@
 		B3CC5988199384B90080C4D3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B3CC5989199384B90080C4D3 /* Info.plist */,
+				B3CC5989199384B90080C4D3 /* HelloSwift-Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -355,7 +355,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				INFOPLIST_FILE = HelloSwift/Info.plist;
+				INFOPLIST_FILE = "HelloSwift/HelloSwift-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
@@ -382,7 +382,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				INFOPLIST_FILE = HelloSwift/Info.plist;
+				INFOPLIST_FILE = "HelloSwift/HelloSwift-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
