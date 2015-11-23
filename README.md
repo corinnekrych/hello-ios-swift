@@ -1,5 +1,7 @@
 # Use FH iOS SDK in Swift projects
 
+> This template app is deprecated use [helloworld-ios-app](https://github.com/feedhenry-templates/helloworld-ios/tree/swift) instead.
+> 
 If you have a Swift based project and you would like to use the FH iOS SDK, here is the steps you should follow:
 
 1. Add the FH iOS SDK
